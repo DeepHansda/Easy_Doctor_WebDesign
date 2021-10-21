@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width:320px){
+    .mainSection{
+        height: 395px;
+    }
+
+    .mainSection #mainCon li a{
+        font-size: 32px;
+    }
+
+    .mainSection #mainCon li p{
+        font-size:14px;
+    }
+
+    .cNav{
+        flex:none;
+    }
+
+    .cwu #form{
+        flex:none;
+    }
+
+    .cwu #form input, textarea{
+        width:200px;
+        height:30px;
+    }
+
+    #msg{
+        height:95px;
+    }
+
+    #submit {
+        width: 75px;
+        height: 29px;
+        font-size: 17px;
+    }
+
+
+
+
+
+    .connect a i{
+        font-size:24px;
+        
+    }
+    
+    .connect{
+        margin-top: 0px;;
+    }
+}
+
+
+@media  only screen and (max-height:568px){
+    #msg{
+        height:95px;
+    }
+    
+}
+
+
+@media only screen and (max-height:640px){
+    
+    .cNav{
+        flex:none;
+    }
+
+    .cwu #form{
+        flex:none;
+    }
+
+    .cwu #form input, textarea{
+        width:200px;
+        height:30px;
+    }
+
+    #msg{
+        height:95px;
+    }
+
+    #submit {
+        width: 75px;
+        height: 29px;
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .intro{
+        display:none;
+    }
+}
+
+
+@media screen and (max-width:390px) {
+    .intro{
+        display:none;
+    }
+}
+
+
+@media screen and (max-height:667px){
+    .mainSection #mainCon li a{
+        font-size:35px;
+    }
+
+    .mainSection #mainCon li p{
+        font-size:14px;
+    }
+
+    
+    .cNav{
+        flex:none;
+    }
+
+    .cwu #form{
+        flex:none;
+    }
+
+    .cwu #form input, textarea{
+        width:200px;
+        height:30px;
+    }
+
+    #msg{
+        height:95px;
+    }
+
+    #submit {
+        width: 75px;
+        height: 29px;
+        font-size: 17px;
+    }
+}
+
+
+@media  screen and (min-width:414px){
+    .mainSection{height:590px;}
+    
+}
+
+
+
+
+
+@media screen and (min-width:768px){
+   
+
+    .mainSection{
+        align-items:center;
+        height: 90vh;
+    }
+    .mainSection #mainCon li a{
+        font-size:30px;
+    }
+
+    .mainSection #mainCon li p{
+        font-size:12px;
+    }
+
+    #mainCon{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        width:100%;
+    }
+
+    #op1{
+        margin-left: 158px;
+    }
+
+    #op2{
+        align-self: flex-start;
+        margin-left: 143px;
+    }
+    
+
+    #op3{
+        margin-left: 300px;
+    }
+
+
+
+    #contact,#about{
+        display: block;
+    }
+
+    #contact{
+    position: absolute;
+    left: 0;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;;
+    z-index: 5;
+    transform: rotate(90deg);
+    
+
+    }
+
+    #contact::before{
+        content: "";
+    position: absolute;
+    top:20px;
+    align-self: center;
+    width:2px;
+    height:30px;
+    border-radius: 5px;
+    background-color:#fff;
+    }
+
+
+    #about{
+        position: absolute;
+    right: 0;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 45px;;
+    z-index: 5;
+    transform: rotate(-90deg);
+    }
+
+
+
+    #about::after{
+        content: "";
+    position: absolute;
+    top:20px;
+    align-self: center;
+    width:2px;
+    height:30px;
+    border-radius: 5px;
+    background-color:#fff;
+    }
+
+
+
+    .write2{
+        margin-top:320px;
+    }
+
+}
+
+
+
+ @media screen and (min-width: 1024px) {
+    #op2{
+        align-self: flex-start;
+        margin-left: 230px;
+    }
+} 
+
+
+
+@media  screen and (min-width:1280px){
+    #op1{
+        align-self: center;
+        margin-left: 127px;
+    }
+    #op2{
+        align-self: center;
+margin-left: -370px;
+    }
+
+    #op3{
+        align-self: center;
+        margin-left: 350px;
+    }
+
+
+    .mainSection #mainCon li a:hover{
+        font-size: 35px;
+        
+    }
+
+    .mainSection #mainCon li a:hover .mainSection{
+        background-color: rgba(0, 0, 0, 0.67)
+    }
+    
+    .free p:hover{
+        padding-bottom: 48px;;
+    }
+
+    .write2{
+        margin-top:665px;
+    }
+
+}
+
+

@@ -1,0 +1,9 @@
+@keyframes stretch {
+    0%{width:25px}
+    25%{width:12px}
+    50%{width:6px;
+        padding-left: 12px;;
+    }
+    75%{width:12px}
+    100%{width: 25px;}
+}
